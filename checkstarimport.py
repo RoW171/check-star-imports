@@ -20,7 +20,7 @@ basic example:
 
 9214 objects were imported!
 
- for more examples see readme"""
+for more examples see readme"""
 
 
 class check_star_imports:  # I know underscores and lowercase in classes... but it looks better as contextmanager
