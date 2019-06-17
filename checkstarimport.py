@@ -37,7 +37,7 @@ class check_star_imports:  # I know underscores and lowercase in classes... but 
     def __exit__(self, *args, **kwargs):
         """ runs after imports"""
         number: int = len(globals()) - self.start_count
-        print(f'{number} {"objects were" if number == 1 else "object was"} imported!')
+        print(f'{number} {"objects were" if number != 1 else "object was"} imported!')
 
 
 if __name__ == '__main__': help(check_star_imports)
