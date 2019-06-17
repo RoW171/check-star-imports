@@ -25,6 +25,7 @@ basic example:
 
 class check_star_imports:  # I know underscores and lowercase in classes... but it looks better as contextmanager
     __doc__ = __doc__
+    __slots__ = ['start_count']  # saves 8 bytes
 
     def __init__(self):
         self.start_count: int = 0
