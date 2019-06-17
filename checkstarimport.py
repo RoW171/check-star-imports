@@ -6,7 +6,7 @@ __credits__ = ["Robin Weiland", ]
 __copyright__ = "Copyright 2019, Robin Weiland"
 
 __date__ = "2019-06-17"
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 __license__ = "MIT"
 
 __all__ = ['check_star_imports']
